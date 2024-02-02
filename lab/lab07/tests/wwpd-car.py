@@ -49,22 +49,18 @@ test = {
           >>> from car import *
           >>> deneros_car = MonsterTruck('Monster', 'Batmobile')
           >>> deneros_car.drive() # Type Error if an error occurs and Nothing if nothing is displayed
-          beba7598767b3ddfeb4b0163408184fa
-          8a7be733d5923219ef98f4d3a98c169c
-          # locked
+          Vroom! This Monster Truck is huge!
+          'Monster Batmobile goes vroom!'
           >>> Car.drive(deneros_car) # Type Error if an error occurs and Nothing if nothing is displayed
-          8a7be733d5923219ef98f4d3a98c169c
-          # locked
+          'Monster Batmobile goes vroom!'
           >>> MonsterTruck.drive(deneros_car) # Type Error if an error occurs and Nothing if nothing is displayed
-          beba7598767b3ddfeb4b0163408184fa
-          8a7be733d5923219ef98f4d3a98c169c
-          # locked
+          Vroom! This Monster Truck is huge!
+          'Monster Batmobile goes vroom!'
           >>> Car.rev(deneros_car) # Type Error if an error occurs and Nothing if nothing is displayed
-          795bceccbca635277a3bbfa64bc9dba0
-          # locked
+          Error
           """,
           'hidden': False,
-          'locked': True
+          'locked': False
         }
       ],
       'scored': False,
